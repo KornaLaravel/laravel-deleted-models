@@ -1,8 +1,8 @@
 # Automatically copy deleted records to a separate table
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-deleted-models.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-deleted-models)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/spatie/laravel-deleted-models/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/spatie/laravel-deleted-models/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/spatie/laravel-deleted-models/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/spatie/laravel-deleted-models/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://github.com/spatie/laravel-deleted-models/actions/workflows/run-tests.yml/badge.svg)](https://github.com/spatie/laravel-deleted-models/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://github.com/spatie/laravel-deleted-models/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/spatie/laravel-deleted-models/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-deleted-models.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-deleted-models)
 
 When deleting an Eloquent model, this package will copy the attributes of that model to a new table called `deleted_models`. You can view this as a sort of "Recycle bin for models".
